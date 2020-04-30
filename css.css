@@ -42,18 +42,43 @@ hr.solid {
 }
 
 .pub {
-	position: relative;
+	position: absolute;
+	z-index: 2;
     width: 260px;
     height: 380px;
     margin-top: 27px;
-    margin-left: 25%;
+    margin-left: 8.4%;
 }
 
 .container{
-	position: absolute;
+	position: relative;
 	width: 300px;
     height: 420px;
     margin-top: 10px;
-    margin-left: 7%;
-    background-color: #ffff99;
+    margin-left: 21%;
+    background-color: #fff491;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.pub:hover + .container{
+	transform: scale(1.03);
+	background-color: #ffff5c;
+}
+
+.container:hover{
+	transform: scale(1.03);
+	background-color: #ffff5c;
+}
+
+.footerself {
+	margin-top: 5%;
+	left: 0;
+	padding-top: 5px;
+	bottom: 0;
+	width: 100%;
+	height: 240px;
+	background-color: #f7f7f7;
+	color: black;
+	text-align: center;
 }
