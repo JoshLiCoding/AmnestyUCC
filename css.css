@@ -62,13 +62,13 @@ hr.solid {
 }
 
 .pub:hover + .container{
-	transform: scale(1.03);
-	background-color: #ffff5c;
+	transform: scale(1.01);
+	background-color: #ffd86b;
 }
 
 .container:hover{
-	transform: scale(1.03);
-	background-color: #ffff5c;
+	transform: scale(1.01);
+	background-color: #ffd86b;
 }
 
 .footerself {
